@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>MentMe Blog</h2>
+    <img src="../images/logo.png" width="100"><br>
+    <a href="/home.html">Home/</a>
+    <a href="/about.html">About Us/</a>
+    <a href="/faq.html">FAQ/</a>
+    <a href="login.html">Login|</a>
+    <a href="/register.html">Register/</a>
+    <a href="/contact.html">Contact/</a>
+    <h2>Sign Up</h2><hr>
+    <h2>Create an Account</h2>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+            <p><label for="form-firstname">Firstname:</label><input type="text" name= "text" maxlength="12" id="form-firstname"></p>
+            <p><label for="form-last Name">Lastname:</label><input type="text" name= "text" maxlength="12" id="form-Lastname"></p>
+        </p>
+        <p>
+            Gender
+        </p>
+            <input type="radio" name="Gender"> Male
+            <input type="radio" name="Gender"> Female
+        <p>
+            Date of Birth <br><input type="date">
+        </p>
+        <p>
+            Select your Interest <br>
+                <ul>
+                    <li><input type="checkbox" name="genre" value="Music"> Music</li>
+                    <li><input type="checkbox" name="genre" value="Comedy"> Comedy</li>
+                    <li><input type="checkbox" name="genre" value="Showbiz"> Showbiz</li>
+                    <li><input type="checkbox" name="genre" value="Education">Education</li>
+                </ul>
+        </p>
+        <p>
+            <label>Age Range<input type="number" name="Age Range" placeholder="Select Age" min="1" max="6"></label>
+        </p>
+        <p>
+             Select Favorite Movies<br>
+            <select name="Eightiesfave" size="6" multiple>
+                <option>Game of Thrones</option>
+                <option>Money Heist</option>
+                <option>Big Bang</option>
+                <option>Thompson</option>
+                <option>Depeche Mode</option>
+                <option>The Smith</option>
+                <option>Now Order</option>
+            </select>
+        </p>
+        <p><label>Select Favorite Color<br> <mark>select more than one where applicable <br></mark> <input type="color" name="favorite"></label></p>
+    </fieldset>
+    <fieldset>
+        <legend>Account Details</legend>
+        Upload Profile Pictures <br> <mark>pictures should not be more than 100kb</mark><br>
+        <input type="file" name="photo">
+        <p>
+            <p><label for="form-Username">Username:</label><input type="text" name= "text" maxlength="12" id="form-Username"></p>
+            <p><label for="form-pswd">Password:</label><input type="password" name= "password" maxlength="12" id="form-pswd"></p>
+            <p><label for="form-pswd">Retype Password:</label><input type="password" name= "password" maxlength="12" id="form-pswd"></p>
+        </p>
+        <p>Rate Us Now (0-10)<br>
+            <label><input type="range" name="satisfaction" min="0" max="10" step = "1"></label>
+        </p>
+        <p><input type="checkbox" name="genre" value="Music"> I agree to Your terms and conditions<br>
+        <a href="/home.html">Click here</a>for terms and conditions</p>
+        <input type="submit" value="Sign Up"> <input type="reset" value="Clear Data">
+    </fieldset>
+    <fieldset>
+        <legend>Disclaimer</legend>
+        <p>All information Provided were given voluntary by the bearer of the above details</p>
+    </fieldset>
+    <h3>
+        Other links
+    </h3>
+    <ul>
+        <li><a href="/home.html">Site Map</a></li>
+        <li><a href="/home.html">Community</a></li>
+        <li><a href="/home.html">Archives</a></li>
+        <li><a href="/home.html">Contact</a></li>
+    </ul>
+    <p>
+        Copyright &copy; 2019
+    </p>
+    <p>
+        All right Reserved
+    </p>
+</body>
+</html>
